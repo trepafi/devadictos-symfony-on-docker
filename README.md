@@ -1,4 +1,4 @@
-Aplicación Symfony 3 sobre Docker container
+# Aplicación Symfony 3 sobre Docker container
 
 Vamos construir la estructura de una aplicación Symfony utilizando unos cuantos contenedores Docker. Sí, lo se, PHP es un lenguaje bastante rudimentario pero le tengo mucho cariño y aún mantengo un par de sitios web que lo utilizan así que aún no lo he dejado.
 
@@ -107,7 +107,7 @@ CONTAINER ID        IMAGE                     COMMAND                  CREATED  
 5f07f5045837        symfony-on-docker-image   "/bin/sh -c /init/ent"   9 minutes ago       Up 9 minutes        0.0.0.0:80->8000/tcp   elated_joliot
 ```
 
-Efectivamente `Up 9 minutes` nos indica que nuestro pequeño está allí. Ahora vamos a probar la aplicación que hemos añadido. Abrimos una ventana de nuestro navegador preferido e intentamos acceder con la dirección IP de nuestra máquina virtual, que por lo general es `192.168.99.100`. Y voilà, deberíais ver algo como lo siguiente
+Efectivamente `Up 9 minutes` nos indica que nuestro pequeño está allí. Ahora vamos a probar la aplicación que hemos añadido. Abrimos una ventana de nuestro navegador preferido e intentamos acceder con la [dirección IP de nuestra máquina virtual](http://192.168.99.100/), que por lo general es `192.168.99.100`. Y voilà, deberíais ver algo como lo siguiente
 
 ![Aplicación Symfony]()
 
